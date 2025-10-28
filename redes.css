@@ -1,0 +1,115 @@
+
+body {
+    background-color: black;
+}
+
+/* --- capa dos navs --- */
+header {
+    background-color: #202d46; /* Fundo escuro do cabeçalho */
+    width: 100%;
+    position: fixed; /* Fixa o cabeçalho no topo (opcional, mas comum) */
+    top: 0;
+    left: 0;
+    z-index: 10;
+    padding: 15px 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* --- NAVEGAÇÃO (Menu do Site) --- */
+nav {
+    background: none; /* Sem fundo */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+nav h1 {
+    color: white;
+    font-size: 1.8em;
+    margin-right: 30px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav li {
+    margin-right: 15px;
+}
+nav li a {
+    /* Estilo do botão minimalista como na imagem */
+    display: inline-block;
+    background-color: #214f8b; /* Fundo cinza escuro do botão */
+    color: #c0c0c0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: normal;
+    transition: background-color 0.3s ease;
+}
+nav li a:hover {
+    background-color: #2c2c2c; /* Tom de hover mais claro */
+    color: white;
+}
+
+
+
+.container{
+    max-width: 850px; /* tamanho do container */
+    margin: 100px 600px auto; /* altura e direita ou esquerda */
+    background-color: #0b1e46;
+    border-radius: 13px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+.container h3, p{
+    text-align: center;
+    color: whitesmoke;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+
+
+.myfoto {
+    display: block;
+    margin: 0 auto;
+    border-radius: 500px;
+    }
+
+
+
+    .botoes-caixa-preta {
+    background-color: (rgb(20, 20, 20));
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+   display: flex;
+   
+}
+.botoes-caixa-preta a {
+    color: rgb(201, 185, 185);
+    background-color: #0f3d6b;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-size: 16px;              
+    box-shadow: 0,3 ease;
+    margin-right: 20px;
+}
+.botoes-caixa-preta a:hover {
+    background-color: #222222;
+}
+
+
