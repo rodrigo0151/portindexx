@@ -1,0 +1,163 @@
+body{
+    background-color: black;
+   margin: auto;
+   color: rgb(184, 183, 183);
+}
+
+.capa{
+     background-image: url(imagens/fundocapa.jpg);
+    background-size: 100% 100%; /* Isso pode esticar a imagem */
+    height: 200px;
+    color: rgb(130, 132, 245);
+}
+.titu{
+    font-size: 25px;
+}
+
+.perfil {
+    background: rgb(204, 204, 204);
+    border-radius: 20px;
+    width: 280px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid rgb(10, 10, 10);
+    box-shadow: 0px 8px 15px rgb(0, 0, 0);
+    transition: box-shadow 0.3s ease;
+    color: black;
+
+    /* >>> ESSAS LINHAS AQUI FAZEM O PERFIL FICAR FIXO <<< */
+    position: fixed;
+    top: 35px;    /* distância do topo */
+    right: 35px;  /* distância da direita */
+}
+
+
+
+.perfil:hover {
+    box-shadow: 0px 8px 15px rgb(255, 253, 253);
+}
+
+
+.perfil img {
+    border-radius: 50%;
+    box-shadow: none;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+.perfil p {
+    color: rgb(7, 3, 3);
+}
+
+
+.pe {
+   color: white;
+    text-align: justify;
+  max-width: 900px;     /* controla largura do texto */
+  margin-right: 340px; /* reserva espaço para o .perfil (ajuste se mudar largura) */
+}
+
+
+.perfil a {
+    text-decoration: none;
+}
+
+
+.botoes-caixa-preta {
+    background-color: (rgb(20, 20, 20));
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+   display: flex;
+   
+}
+
+
+.botoes-caixa-preta a {
+    color: rgb(201, 185, 185);
+    background-color: #0f3d6b;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-size: 16px;              
+    box-shadow: 0,3 ease;
+}
+
+
+.botoes-caixa-preta a:hover {
+    background-color: #222222;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border:#214f8b 2px solid;
+    
+}
+td {
+    border: 1px solid #214f8b;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background: linear-gradient(to right, #0b3d91, #214f8b);
+    color: white;
+    padding: 10px;
+    text-align: left;
+    border: 2px solid #214f8b;
+}
+tr:nth-child(even) {
+    background-color: #000000;
+}
+tr:hover {
+    background-color: #414040;
+}
+nav{
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+nav li {
+   color: rgb(0, 28, 240);
+   float: left;
+    margin-right: 15px;
+    list-style-type: none; /* remove os marcadores padrão */
+}
+nav li a {
+    font-weight: bold;
+    margin-right: 15px;
+
+    /* abaixo sobre o botao dos links */
+    display: inline-block;
+    background-color: #214f8b; /* cor do botão */
+    color: rgb(161, 184, 226);              /* cor do texto */
+    padding: 8px 16px;         /* altura e largura do botão */
+    border-radius: 8px;        /* cantos arredondados */
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+
+nav li a:hover { /* muda a cor ao clicar no botao*/
+    background-color: #222222;
+}
+
+
+nav ul {
+    margin-right: 15px;
+   padding: 10px;
+
+}
+h2 {
+    color: rgb(130, 132, 245);
+}
+p{
+    font-size: 18px;
+}
