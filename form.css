@@ -1,0 +1,158 @@
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(65, 65, 65);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+#formulario input, #formulario textarea {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-bottom: 4px solid black;
+    height: 40px;
+}
+
+#formulario button {
+    width: 150px;
+    padding: 10px 20px;
+    margin: 20px auto 0 auto;
+    background-color: rgb(32, 178, 170);
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: large;
+    font-family: Arial;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+#formulario button:hover {
+    background-color: rgb(24, 156, 196);
+    color: white;
+    transform: scale(1.05);
+}
+
+#formulario h2 {
+    text-align: center;
+    font-family: Arial;
+    letter-spacing: 1px;
+    font-size: 2em;
+    font-weight: bold;
+  color: rgb(10, 10, 10);
+  text-shadow: 0 0 5px #fff, 0 0 10px rgb(43, 43, 43), 0 0 20px rgb(44, 44, 44);
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.resul{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px; /* Adicionado um pouco de espaçamento */
+}
+header{
+    background-image: url(imagens/formfundo2.jpg);
+    background-size: cover; /* Ajustado para cobrir a área */
+    background-position: center; /* Centraliza a imagem de fundo */
+    height: 370px;
+    
+    display: flex; /* centralizar o h1 e a nav */
+    flex-direction: column; /* Coloca os itens em coluna */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; 
+}
+header h1{
+    font-size: 50px;
+    color: rgb(153, 153, 153);
+    margin-bottom: 20px; /* Espaçamento entre o título e o menu */
+}
+
+#container{
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 2px;
+    background-color: #0e0e0e;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex; /* centralizar a calculadora */
+    flex-direction: column; /* Itens em coluna */
+    align-items: center; 
+}
+
+
+#container input[type="number"] {
+    width: 80%; 
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: #222;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+#container button {
+    padding: 10px 20px;
+    background-color: #090033; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; 
+}
+
+#container button:hover {
+    background-color: #000000;
+}
+
+
+/* BOTOES MENU*/
+nav{
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 100%; 
+}
+nav ul {
+    margin: 0; 
+    padding: 0; 
+    list-style-type: none; /* remove os marcadores padrão */
+    display: flex; /* Habilita flexbox para os itens do menu */
+    justify-content: center; 
+    align-items: center; /* Centraliza verticalmente (se houver variação de altura) */
+    width: 100%; 
+}
+nav li {
+    margin: 0 10px; /* Espaçamento entre os itens do menu */
+}
+nav li a {
+    font-weight: bold;
+    display: inline-block;
+    background-color: #464646; 
+    color: rgb(161, 184, 226);             
+    padding: 8px 16px;         /* altura e largura do botão */
+    border-radius: 8px;        /* cantos arredondados */
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+
+nav li a:hover { 
+    background-color: #0b3d91; 
+}
